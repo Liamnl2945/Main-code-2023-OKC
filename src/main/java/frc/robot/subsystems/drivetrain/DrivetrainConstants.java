@@ -19,24 +19,24 @@ public final class DrivetrainConstants {
   public static final int FRONT_LEFT_MODULE_DRIVE_MOTOR = 1;
   public static final int FRONT_LEFT_MODULE_STEER_MOTOR = 2;
   public static final int FRONT_LEFT_MODULE_STEER_ENCODER = 9;
-  public static final double FRONT_LEFT_MODULE_STEER_OFFSET = 118.0371;
+  public static final double FRONT_LEFT_MODULE_STEER_OFFSET = 55.28;
 
   public static final int FRONT_RIGHT_MODULE_DRIVE_MOTOR = 3;
   public static final int FRONT_RIGHT_MODULE_STEER_MOTOR = 4;
   public static final int FRONT_RIGHT_MODULE_STEER_ENCODER = 10;
-  public static final double FRONT_RIGHT_MODULE_STEER_OFFSET = 102.9968;
+  public static final double FRONT_RIGHT_MODULE_STEER_OFFSET = 347.78;
 
   public static final int BACK_LEFT_MODULE_DRIVE_MOTOR = 5;
   public static final int BACK_LEFT_MODULE_STEER_MOTOR = 6;
   public static final int BACK_LEFT_MODULE_STEER_ENCODER = 11;
-  public static final double BACK_LEFT_MODULE_STEER_OFFSET = -189.7051;
+  public static final double BACK_LEFT_MODULE_STEER_OFFSET = 135.88;
 
   public static final int BACK_RIGHT_MODULE_DRIVE_MOTOR = 7;
   public static final int BACK_RIGHT_MODULE_STEER_MOTOR = 8;
   public static final int BACK_RIGHT_MODULE_STEER_ENCODER = 12;
-  public static final double BACK_RIGHT_MODULE_STEER_OFFSET = 40.3335;
+  public static final double BACK_RIGHT_MODULE_STEER_OFFSET = 108.98;
 
-  public static final int PIGEON_ID = 13;
+  public static final int PIGEON_ID = 1;
 
   // FIXME: update robot dimensions
 
@@ -45,17 +45,17 @@ public final class DrivetrainConstants {
    *
    * <p>Should be measured from center to center.
    */
-  public static final double TRACKWIDTH_METERS = 0.5715; // 22.5 inches
+  public static final double TRACKWIDTH_METERS = 0.737; // 22.5 inches
 
   /**
    * The front-to-back distance between the drivetrain wheels.
    *
    * <p>Should be measured from center to center.
    */
-  public static final double WHEELBASE_METERS = 0.5969; // 23.5 inches
+  public static final double WHEELBASE_METERS = 0.737; // 23.5 inches
 
-  public static final double ROBOT_WIDTH_WITH_BUMPERS = 0.89; // meters
-  public static final double ROBOT_LENGTH_WITH_BUMPERS = 0.91; // meters
+  public static final double ROBOT_WIDTH_WITH_BUMPERS = 0.889; // meters
+  public static final double ROBOT_LENGTH_WITH_BUMPERS = 0.889; // meters
 
   /* The geometry and coordinate systems can be confusing. Refer to this document
   for a detailed explanation: https://docs.google.com/document/d/17dg5cIfqVOlQTTbo2ust4QxTZlUoPNzuBu2oe58Ov84/edit#heading=h.x4ppzp81ed1
@@ -85,7 +85,7 @@ public final class DrivetrainConstants {
    * <p>This is a measure of how fast the robot should be able to drive in a straight line.
    */
   public static final double MAX_VELOCITY_METERS_PER_SECOND =
-      6380.0
+      6000.0
           / 60.0
           / SwerveModuleConstants.DRIVE_GEAR_RATIO
           * SwerveModuleConstants.WHEEL_CIRCUMFERENCE;
